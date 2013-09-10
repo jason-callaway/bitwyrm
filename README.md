@@ -42,3 +42,7 @@ optional arguments:
 		IMAGENAME-n.iso.  If -n or --name is not specified, the TARGET
 		type will be used instead.
 </code></pre>
+
+What's up with the spelling?
+----------------------------
+Originally I was thinking of wormholes as a way to logically describe what this utility aimed to achieve, but I was afraid of tripping alarms with the string 'worm.'  'Wyrm' is Old English for dragon, which isn't the same, but looks cool.  Sorry about the inevitable typos.

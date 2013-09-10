@@ -23,8 +23,8 @@ If you're on a traditional jump-host or proxy, your "inside" systems can pull fr
 Usage
 -----
 <pre><code>
-$ bitwyrm --help
-usage: bitwyrm [-m] [-v|--verbose] [-t TARGET] [-l LOCALDIR] [--cd-image|--dvd-image|--blu-ray-image DIRECTORY] [-n|--name IMAGENAME]
+$ python bitwyrm.py --help
+usage: bitwyrm.py [-m] [-v|--verbose] [-t TARGET] [-l LOCALDIR] [--cd-image|--dvd-image|--blu-ray-image DIRECTORY] [-n|--name IMAGENAME]
 
 optional arguments:
   -m		Work in mirroring mode.  If this is omitted, image mode

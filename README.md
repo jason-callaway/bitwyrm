@@ -22,6 +22,7 @@ If you're on a traditional jump-host or proxy, your "inside" systems can pull fr
 
 Usage
 -----
+<pre><code>
 $ bitwyrm --help
 usage: bitwyrm [-m] [-v|--verbose] [-t TARGET] [-l LOCALDIR] [--cd-image|--dvd-image|--blu-ray-image DIRECTORY] [-n|--name IMAGENAME]
 
@@ -40,3 +41,4 @@ optional arguments:
 		created with a sequential suffix, n, in the format
 		IMAGENAME-n.iso.  If -n or --name is not specified, the TARGET
 		type will be used instead.
+</code></pre>

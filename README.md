@@ -22,4 +22,21 @@ If you're on a traditional jump-host or proxy, your "inside" systems can pull fr
 
 Usage
 -----
+$ bitwyrm --help
+usage: bitwyrm [-m] [-v|--verbose] [-t TARGET] [-l LOCALDIR] [--cd-image|--dvd-image|--blu-ray-image DIRECTORY] [-n|--name IMAGENAME]
 
+optional arguments:
+  -m		Work in mirroring mode.  If this is omitted, image mode
+		is assumed.
+  -v|--verbose	Output progress updates.  By default bitwyrm will print no
+		status and only return an exit signal.
+  -t		Target where TARGET is one of the following supported types: 
+		http, pypi, rubygems.org
+  -l		Local storage directory
+  --cd-image|--dvd-image|--blu-ray-image	Into DIRECTORY, place a 
+		burnable image for the specified format.  Must use with -t
+		or -l.  If the source material in either is larger than the
+		maximum capacity of the format type, multiple images will be
+		created with a sequential suffix, n, in the format
+		IMAGENAME-n.iso.  If -n or --name is not specified, the TARGET
+		type will be used instead.
